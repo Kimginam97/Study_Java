@@ -20,4 +20,39 @@ public class HashFunction {
 //        }
 //        return hash;
 //    }
+
+
+    /*
+    * FNV-1 해시
+    * */
+
+//    #define FNV_PRIME_32 16777619
+//    #define FNV_OFFSET_32 2166136261U
+//    uint32_t FNV32(const char *str, uint32_t len){
+//        uint32_t hash = FNV_OFFSET_32;
+//        uint32_t i;
+//        for(i=0;i<len;++i){
+//            hash = hash * FNV_PRIME_32;
+//            hash = hash ^ str[i];
+//        }
+//        return hash;
+//    }
+
+
+    /*
+     * FNV-1a 해시
+     * */
+//    #define FNV_PRIME_32 16777619
+//    #define FNV_OFFSET_32 2166136261U
+//    uint32_t FNV32(const char *str, uint32_t len){
+//        uint32_t hash = FNV_OFFSET_32;
+//        uint32_t i;
+//        for(i=0;i<len;++i){
+//            hash = hash ^ str[i];
+//            hash = hash * FNV_PRIME_32;
+//        }
+//        return hash;
+//    }
+
+
 }
